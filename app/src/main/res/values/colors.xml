@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e12c3b</color>
+    <color name="colorBackground">#fffcfc</color>
+    <color name="colorPrimaryDark">#080808</color>
+    <color name="colorAccent">#e8192e</color>
+    <color name="foreground_material_light">#916d6d</color>
+    <color name="Sportal">#c82727</color>
+    <color name="TabColor">#c0b6a8a7</color>
+    <color name="EditBackground">#759e9999</color>
+    <color name="EditBackground2">#b39e9999</color>
+    <color name="TextColor">#ffffff</color>
+    <color name="TextColorLogin">#161616</color>
+    <color name="SportalTextBox">#904893</color>
+    <color name="AchievementTextBox">#5f69676b</color>
+    <color name="customList">#dcd9d9</color>
+    <color name="customListBorder">#c2bfbf</color>
+    <color name="customListImage">#0d0d0d</color>
+    <color name="customListImage2">#a3a39e9e</color>
+    <color name="LoginColor">#ffffff</color>
+    <color name="colorRegisterHeadings">#cecccc</color>
+    <color name="colorRegisterTitle">#cecccc</color>
+    <color name="strokeRegister">#a19f9f</color>
+    <color name="strokeRegisterTwo">#dad9d9</color>
+</resources>

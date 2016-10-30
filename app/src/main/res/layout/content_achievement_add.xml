@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nsn.sportal.AchievementAdd"
+    tools:showIn="@layout/activity_achievement_add"
+    android:background="@drawable/achievement_background"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achievements"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/TextColor"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:textColor="@color/TextColor"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_achievement"
+        android:layout_gravity="left"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:background="@drawable/rectangle_achievement"
+        android:textColor="@color/TextColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:textColor="@color/TextColor"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_achievement"
+        android:layout_gravity="left"
+        android:inputType="date"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:background="@drawable/rectangle_achievement"
+        android:textColor="@color/TextColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:textColor="@color/TextColor"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/description_achievement"
+        android:layout_gravity="left"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:background="@drawable/rectangle_achievement"
+        android:textColor="@color/TextColor"
+        android:textAlignment="viewStart"/>
+</LinearLayout>

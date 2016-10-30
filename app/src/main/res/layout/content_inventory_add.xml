@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nsn.sportal.InventoryAdd"
+    tools:showIn="@layout/activity_inventory_add"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Inventory"
+        android:id="@+id/textView"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_inventory"
+        android:singleLine="true"
+        android:maxLines="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Sport"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sport_inventory"
+        android:singleLine="true"
+        android:maxLines="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Item Quantity"
+        android:id="@+id/textView4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/item_quantity_inventory"
+        android:orientation="vertical"
+        android:showDividers="beginning|middle|end"/>
+
+</LinearLayout>

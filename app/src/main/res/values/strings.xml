@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Sportal</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Atleast one upper case character and Special Symbol is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_short_password">Password must be atleast 6 characters long</string>
+    <string name="error_password_mismatch">The passwords do not match</string>
+    <string name="error_invalid">Invalid Format</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="date">YYYY-MM-DD</string>
+
+    <string name="achievement">Achievements</string>
+    <string name="photo">Photos</string>
+    <string name="inventory">Inventory</string>
+
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_portfolio">PortfolioActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_news_feed">NewsFeed</string>
+    <string name="title_activity_sportal_home">SportalHome</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_event_add">EventAdd</string>
+    <string name="title_activity_achievement">Achievements</string>
+    <string name="title_activity_achievement_add">AchievementAdd</string>
+    <string name="title_activity_inventory">Inventory</string>
+    <string name="title_activity_inventory_add">InventoryAdd</string>
+
+    <string name="home_search">Search</string>
+    <string name="portfolio_home">Home</string>
+    <string name="home_logout">Logout</string>
+    <string name="home_friend_requests">Friend Requests</string>
+
+
+    <string name="notfriend">Add Friend</string>
+    <string name="friends">Unfriend</string>
+    <string name="requestsent">Cancel Request</string>
+    <string name="approvefriend">Approve Request</string>
+    <string name="title_activity_event_view">Event</string>
+    <string name="title_activity_friend_request_view">Friend Request</string>
+</resources>
